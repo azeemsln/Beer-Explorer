@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.beer-card {
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.beer-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.search-bar {
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
